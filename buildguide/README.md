@@ -1,7 +1,10 @@
 
 # 3x3 or 4x4 Macropad Keyboard Build Guide
 
-total cost is below 15$ and you will already have a lota of parts for the full build. (when using AliExpress bundle deals)
+Total cost is below 15$ (when using AliExpress bundle deals) and you will already have a lot of parts for the full build.
+
+The entire result from this guide can be reused/extended into a full keyboard (of any size).
+
 ## Bill of materials
 links to most of them can be foind here https://github.com/nmunnich/apiaster/blob/main/docs/mx-ordering-guide/mx-zero.md  
 - **1x** 3x3 or 4x4 MX switch tester (e.g. https://a.aliexpress.com/_Ey9GKVk for 5$)
@@ -10,6 +13,7 @@ links to most of them can be foind here https://github.com/nmunnich/apiaster/blo
 - **16x** keycaps (you can buy entire set for 3$ https://a.aliexpress.com/_EQTRqyi )
 - **1x** RP2040 Zero (e.g. choose welded https://a.aliexpress.com/_EGZg0Cw )
 - wire (I already had it)
+- heat shrink tubbing (the one I bought had a lot of big size tubbings that are not needed for this build)
 
 ## Tools
 - check out https://github.com/nmunnich/apiaster/blob/main/docs/mx-ordering-guide/mx-zero.md#tools for more details
