@@ -1,13 +1,12 @@
 
-# Silakka54
+# SilDactyl54
 
-Silakka54 is a RP2040 Zero based 54-key column staggered split keyboard. PCB uses hotswap sockets. Design is inspired from REVIUNG41 and Corne keyboards.
+SilDactyl54 is a RP2040 Zero based 54-key split keyboard. It has no PCBs and requires no 3d print. It is very cheap and extremely configurable at the same time. It uses hotswap sockets, has a thumb cluster and supports vial.
 
-PCB is designed for MX style key switches. Current top plate only supports MX style switches. 5-pin switches are supported. I recommend using Vial firmware.
+Before proceeding read the [apiaster](https://github.com/nmunnich/apiaster) guide (the best guide in the internet) - do not order anything yet.
 
-**For more information visit https://squalius-cephalus.github.io/silakka54/**
+Most probably you can get it to work with choc switches and wireless MCU. Since I have not tried that, so this guide is only for MX switches with RP2040-Zero.
 
-![](https://raw.githubusercontent.com/Squalius-cephalus/silakka54/main/silakka54.png)
+The project is forked from https://squalius-cephalus.github.io/silakka54 and reuses 90% of the original silakka54 firmware.
 
-PCB design uses footprints from [ScottoKeebs](https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad "ScottoKeebs") and [kbd library.](https://github.com/foostan/kbd "kbd library.")
 
