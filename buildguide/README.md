@@ -14,4 +14,4 @@ If ou don't know which switches are for you I highly recommend going through the
 ## Next 
 [<image src="img/piece.jpg">](macropad/README.md)
 [<image src="img/letsrock.jpg">](ortholinear/README.md)
-<image src="img/comegetsome.jpg">
+[<image src="img/comegetsome.jpg">](dactyl/README.md)
