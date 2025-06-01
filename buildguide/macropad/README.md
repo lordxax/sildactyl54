@@ -68,6 +68,10 @@ The layout will be:
         KC_A, KC_B, KC_C, KC_D,
         KC_E, KC_F, KC_G, KC_H
 
+Helpful image:
+![prepared wire](../img/1_41_mcu.jpg)
+
+
 ## Firmware
 Flash the firmware to the MCU. You will find a precompiled version [here](../../firmware/nibell_micropad4x4_default.uf2) or compile it yourself (I highly recommend it) with QMK: [source](../../firmware/macropad4x4).
 
@@ -79,7 +83,7 @@ You can simulate the key presses like that and test
 ### Attaching to switches
 Mount the switches in the acrylic tester base (actually you will already receive them attached). Using some pliers or tweezers attach the hotswap sockets to the switches. Install keycaps (just push them into the switch)
 
-Finished product should look like this.
+Finished product should look like this (the keycaps don't match the actual keys).
 ![finished micropad](../img/1_50_finished.jpg)
 ![finished micropad](../img/1_51_finished.jpg)
 
