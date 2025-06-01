@@ -83,7 +83,7 @@ You can simulate the key presses like that and test
 ### Attaching to switches
 Mount the switches in the acrylic tester base (actually you will already receive them attached). Using some pliers or tweezers attach the hotswap sockets to the switches. Install keycaps (just push them into the switch)
 
-Finished product should look like this.
+Finished product should look like this (the keycaps don't match the actual keys).
 ![finished micropad](../img/1_50_finished.jpg)
 ![finished micropad](../img/1_51_finished.jpg)
 
