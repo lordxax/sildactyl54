@@ -68,6 +68,10 @@ The layout will be:
         KC_A, KC_B, KC_C, KC_D,
         KC_E, KC_F, KC_G, KC_H
 
+Helpful image:
+![prepared wire](../img/1_41_mcu.jpg)
+
+
 ## Firmware
 Flash the firmware to the MCU. You will find a precompiled version [here](../../firmware/nibell_micropad4x4_default.uf2) or compile it yourself (I highly recommend it) with QMK: [source](../../firmware/macropad4x4).
 
