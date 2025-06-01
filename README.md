@@ -1,3 +1,5 @@
+> [!WARNING]
+> This project is work-in-progress. Please do not follow that yet. Only 4x4 macro pad is completed
 
 # SilDactyl54
 
