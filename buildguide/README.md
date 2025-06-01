@@ -1,5 +1,5 @@
 
-# 3x3 or 4x4 Macropad Keyboard Build Guide
+# Build Guide
 
 ## Tools for all builds
 - check out https://github.com/nmunnich/apiaster/blob/main/docs/mx-ordering-guide/mx-zero.md#tools for more details
@@ -9,7 +9,7 @@
   - you also need some good solder. The solder from that set was bad
 
 ## Switch choice
-If ou don't know which switches are for you I highly recommend going through the Macropad build or at least ordering the switch tester. Building macropad will also help if you are new to soldering, QMK or ou want to check if this is going to work. For me this was my first soldering and first keyboard.
+If ou don't know which switches are for you I highly recommend going through the Macropad build or at least ordering the switch tester. Building macropad will also help if you are new to soldering, QMK or you want to check if this is going to work. For me this was my first soldering and first QMK keyboard.
 
 ## Next 
 [<image src="img/piece.jpg">](macropad/README.md)
