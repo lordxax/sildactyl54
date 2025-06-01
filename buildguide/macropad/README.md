@@ -29,11 +29,52 @@ If you plan to extend this build leave:
 - 10-15cm on each side of the row (one side to solder to MCU, other side to extend with more rows)
 If you didn't leave any spare wire, that is not an issue. You will still be able to solder more wire.
 
-## Testing
+### 2. Columns
 
-## Assembly
+First cut at least 1/3 of the wire from each diode side. Then bend it in half. Attach it to the hotswap socket. They should remain attached to each other without soldering. It will make soldering easier and the end product stronger (potentially).
+![prepared wire](../img/1_19_columns.jpg)
+
+Then solder that. You can use coloured heatshrink pipes to match the diode colors.
+![prepared wire](../img/1_20_columns.jpg)
+![prepared wire](../img/1_21_columns.jpg)
+
+Put the black heatshrink pipe on the diode, then solder that to the wire. Then slide the heatshring pipe and use some high temperature.
+![prepared wire](../img/1_22_columns.jpg)
+![prepared wire](../img/1_23_columns.jpg)
+![prepared wire](../img/1_24_columns.jpg)
+![prepared wire](../img/1_25_columns.jpg)
+
+Finished columns should look like this:
+![prepared wire](../img/1_26_columns.jpg)
+
+### Rows
+Get a darker wire for the rows
+![prepared wire](../img/1_30_rows.jpg)
+
+Then attach the other side of the hotswap sockets to these wires like that.
+![prepared wire](../img/1_29_rows.jpg)
+
+Finally it should look like that:
+![prepared wire](../img/1_31_rows.jpg)
+
+### Wiring to MCU
 
 ## Firmware
+Flash the firmware to the MCU. You will find a precompiled version [here](../../firmware/nibell_micropad4x4_default.uf2) or compile it yourself (I highly recommend it) with QMK: [source](../../firmware/macropad4x4).
+
+### Testing
+You can simulate the key presses like that and test
+![finished micropad](../img/1_60_testing.jpg)
+![finished micropad](../img/1_61_testing.jpg)
+
+### Attaching to switches
+Mount the switches in the acrylic tester base (actually you will already receive them attached). Using some pliers or tweezers attach the hotswap sockets to the switches.
+
+Finished product should look like this.
+![finished micropad](../img/1_50_finished.jpg)
+![finished micropad](../img/1_51_finished.jpg)
+
+Note that my keycaps are flipped by 90 degrees (compared to how people usually mount them). It will not matter at this point, but you might be surprised when you compare it to other builds.
 
 ## Post build
 - switch choice
