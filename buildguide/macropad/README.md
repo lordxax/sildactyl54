@@ -18,6 +18,16 @@ links to most of them can be foind here https://github.com/nmunnich/apiaster/blo
 - heat shrink tubbing (the one I bought had a lot of big size tubbings that are not needed for this build)
 
 ## Soldering
+### 1. Prepare the wires
+Prepare 4 wires for the rows (in my case dark wires: green + brown or blue + red) and 4 wires for the columns (light ones: white + yellow). Each of them should have the protection/cover/insulation removed. The pieces should be separated from each other by approximatelly 3-4 cm. The length of each stripped wire should be ~3-5mm. Ideally leave some spare wire on each side. Leave at least 3-5 cm on each side.
+
+![prepared wire](../img/1_10_wire.jpg)
+
+If you plan to extend this build leave:
+- 3.5cm on bottom side of columns (three columns on the MCU side can be longer ~10cm - to solder to the thumb cluster)
+- 10-15cm on top side of columns (for soldering to the MCU)
+- 10-15cm on each side of the row (one side to solder to MCU, other side to extend with more rows)
+If you didn't leave any spare wire, that is not an issue. You will still be able to solder more wire.
 
 ## Testing
 
