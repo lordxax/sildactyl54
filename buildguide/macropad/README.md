@@ -58,6 +58,15 @@ Finally it should look like that:
 ![prepared wire](../img/1_31_rows.jpg)
 
 ### Wiring to MCU
+The wiring should be as follows
+"cols": ["GP3", "GP4", "GP5", "GP6"],
+"rows": ["GP8", "GP9", "GP10", "GP11"]
+
+The layout will be:
+        KC_1, KC_2, KC_3, KC_4,
+        KC_5, KC_6, KC_7, KC_8,
+        KC_A, KC_B, KC_C, KC_D,
+        KC_E, KC_F, KC_G, KC_H
 
 ## Firmware
 Flash the firmware to the MCU. You will find a precompiled version [here](../../firmware/nibell_micropad4x4_default.uf2) or compile it yourself (I highly recommend it) with QMK: [source](../../firmware/macropad4x4).
@@ -68,7 +77,7 @@ You can simulate the key presses like that and test
 ![finished micropad](../img/1_61_testing.jpg)
 
 ### Attaching to switches
-Mount the switches in the acrylic tester base (actually you will already receive them attached). Using some pliers or tweezers attach the hotswap sockets to the switches.
+Mount the switches in the acrylic tester base (actually you will already receive them attached). Using some pliers or tweezers attach the hotswap sockets to the switches. Install keycaps (just push them into the switch)
 
 Finished product should look like this.
 ![finished micropad](../img/1_50_finished.jpg)
@@ -77,5 +86,7 @@ Finished product should look like this.
 Note that my keycaps are flipped by 90 degrees (compared to how people usually mount them). It will not matter at this point, but you might be surprised when you compare it to other builds.
 
 ## Post build
-- switch choice
-- vial migration
+- make sure that the keyboard works as expected
+- switch choice - choose the switch that you like the most
+- vial migration - you can try to migrate the config to vial (I didn't intend to use that macropad, so I've never done that)
+- experiment with layers, compos, tap dance, etc in vial
