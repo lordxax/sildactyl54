@@ -1,7 +1,7 @@
 
 # 3x3 or 4x4 Macropad Keyboard Build Guide
 
-Total cost is below 15$ (when using AliExpress bundle deals) and you will already have a lot of parts for the full build.
+Total cost is below 15$ (actually probably less than 10$ if you consider only 16 pieces of everyting) and you will already have a lot of parts for the full build.
 
 The entire result from this guide can be reused/extended into a full keyboard (of any size). I recommend to go with the same size as our tester is. The firmware is for 4x4 but it will work with 3x3 as well.
 
