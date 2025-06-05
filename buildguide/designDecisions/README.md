@@ -13,5 +13,10 @@ From QMK perspective this is only changing:
 
 if you do not do the same as I dud and solder to the same pins as in silakka54, you might be able to reuse silakka54 firmware as-is.
 
+This is how original silakka54 should be wired:
+cols": ["GP7", "GP8", "GP9", "GP10", "GP11", "GP12"],
+"rows": ["GP2", "GP3", "GP4", "GP5","GP6"]
+   
+
 # Why not 1x4 switch tester base 
 the outer borders of switch testers are too thick. They cannot be used for columns on the same level or the space between the keys would be too big.
