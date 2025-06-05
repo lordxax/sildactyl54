@@ -11,7 +11,7 @@ From QMK perspective this is only changing:
 - from diode_direction": "COL2ROW"
 - to: diode_direction": "ROW2COL"
 
-if you do not do the same as I dud and solder to the same pins as in silakka54, you might be able to reuse silakka54 firmware as-is.
+if you do not do the same as I did and solder to the same pins as in silakka54, you might be able to reuse silakka54 firmware as-is.
 
 This is how original silakka54 should be wired:
 cols": ["GP7", "GP8", "GP9", "GP10", "GP11", "GP12"],
@@ -19,4 +19,4 @@ cols": ["GP7", "GP8", "GP9", "GP10", "GP11", "GP12"],
    
 
 # Why not 1x4 switch tester base 
-the outer borders of switch testers are too thick. They cannot be used for columns on the same level or the space between the keys would be too big.
+the outer borders of switch testers are too thick. They cannot be used for columns on the same level (not on top of each other) or the horizontal space between the keys would be too big.
