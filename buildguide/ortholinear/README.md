@@ -54,3 +54,25 @@ The MCUs should be connected as follows
 - GP1 to GP0 from other side (receiver to transmitter)
 
 ideally add a cable in between (do not hardwire them). I've used usb male to female cable eventually. Remember to 'cross' tx to rx connection.
+
+## Firmware
+Flash the firmware to bith MCUs (the same firmware). You will find a precompiled version [here](../../firmware/tbd.uf2) or compile it yourself (I highly recommend it) with QMK: [source](../../firmware/tbd).
+
+### Testing
+You can simulate the key presses like that and test
+![finished micropad](../img/1_60_testing.jpg)
+![finished micropad](../img/1_61_testing.jpg)
+
+### Attaching to switches
+Mount the switches in the acrylic tester base (actually you will already receive them attached). Using some pliers or tweezers attach the hotswap sockets to the switches. Install keycaps (just push them into the switch)
+
+Finished product should look like this (the keycaps don't match the actual keys).
+![finished ortho](../img/2_50_finished.jpg)
+![finished ortho](../img/2_51_finished.jpg)
+
+Note that my keycaps are flipped by 90 degrees (compared to how people usually mount them). It will not matter at this point, but you might be surprised when you compare it to other builds. [Here is why](../designDecisions/README.md)
+
+## Post build
+- make sure that the keyboard works as expected
+- switch choice - choose the switch that you like the most
+- visit vial.rocks website. experiment with layers, combos, tap dance, etc in vial
