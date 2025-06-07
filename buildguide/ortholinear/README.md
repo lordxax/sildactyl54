@@ -31,3 +31,26 @@ perform the same steps as in macropad build with following differences:
 - build the second side (it should be mirrored). The MCUs should be on the inner sides (facing each other)
  
 if you have built the macropad, just add 2 more columns and one row and create second side. 
+
+### Wiring to MCU
+The wiring should be as follows
+"cols": ["GP1", "GP2", "GP3", "GP4", "GP5", "GP6"],
+"rows": ["GP8", "GP9", "GP10", "GP11", "GP12"]
+
+
+Helpful image:
+![prepared wire](../img/2_42_mcu.jpg)
+
+> [!TIP]
+> The mapping between pins and wires does not matter as long as you don't wire to some important pins
+> For simplicity: don't wire to: GP0, GP1, 5v Gnd, 3v3
+> You are able to change the pin mapping in QMK (you will have to recomile the firmware though)
+
+### Connecting MCUs
+The MCUs should be connected as follows 
+- GND to GND ( on the other side )
+- 5v to 5v
+- GP0 to GP1 from other side (transmitter to receiver)
+- GP1 to GP0 from other side (receiver to transmitter)
+
+ideally add a cable in between (do not hardwire them). I've used usb male to female cable eventually. Remember to 'cross' tx to rx connection.
