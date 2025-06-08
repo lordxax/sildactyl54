@@ -27,6 +27,9 @@ I've cutted the bases using driller and regular drills for metal. It was not eas
 ## Layout testing
 Mount the switches and keycaps. Mount the pieces togeter with double sided tape and test if they match your hands. Experiment iwth different shapes and layouts. Some ideas are below. Notice how I am moving the pieces on top of each other, more to the front or to the back or bending them inward.
 
+## Gluing and building case
+Glue the pieces together. I used hot glue
+
 # Next steps
 ## Nicer case
 consider building a case from wood, plastic box
