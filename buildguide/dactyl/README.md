@@ -28,19 +28,28 @@ I've cutted the bases using driller and regular drills for metal. It was not eas
 Mount the switches and keycaps. Mount the pieces togeter with double sided tape and test if they match your hands. Experiment iwth different shapes and layouts. Some ideas are below. Notice how I am moving the pieces on top of each other, more to the front or to the back or bending them inward.
 
 ## Gluing and building case
-Glue the pieces together. I used hot glue
+Glue the pieces together. I used hot glue as it lets you reposition the pieces if you are not happy with the result. After some time of testing you can remove the hot glue and replace it with a stronger alternative.
+
+Build the case. I used some random plastic pieces/containers to keep it tented.
+
+Glue the wire connectors to the case.
 
 # Next steps
+## Test for a month or two
+keep uisng the keyboard for 1-2 months and see if it is comfortable.
+
 ## Nicer case
-consider building a case from wood, plastic box
+consider building a case from wood, plastic box or whatever works for you.
 
 ## Different case size
 consider other shapes like
 - a box where the acrylic shape goes inside (like in kinesis advantage)
 
 ## Different layout 
+It will require changing qmk firmware and recompiling that.
 - bigger/smaller thumb cluster
 - different number of rows/columns
+
 
 ## Column bending
 Consider buing another set of keycaps with different profile. The highest buttons should go to the top row and bottom row. The lower buttons to the middle. This way it will simulate as if the columns are bent inward (the top row should be easier to reach)
