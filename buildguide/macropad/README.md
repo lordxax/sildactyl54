@@ -1,7 +1,7 @@
 
 # 3x3 or 4x4 Macropad Keyboard Build Guide
 
-Total cost is below 15$ (when using AliExpress bundle deals) and you will already have a lot of parts for the full build.
+Total cost is below 15$ (actually probably less than 10$ if you consider only 16 pieces of everyting) and you will already have a lot of parts for the full build.
 
 The entire result from this guide can be reused/extended into a full keyboard (of any size). I recommend to go with the same size as our tester is. The firmware is for 4x4 but it will work with 3x3 as well.
 
@@ -71,6 +71,10 @@ The layout will be:
 Helpful image:
 ![prepared wire](../img/1_41_mcu.jpg)
 
+> [!TIP]
+> The mapping between pins and wires does not matter as long as you don't wire to some important pins
+> For simplicity: don't wire to: GP0, GP1, 5v Gnd, 3v3
+> You are able to change the pin mapping in QMK (you will have to recomile the firmware though)
 
 ## Firmware
 Flash the firmware to the MCU. You will find a precompiled version [here](../../firmware/nibell_micropad4x4_default.uf2) or compile it yourself (I highly recommend it) with QMK: [source](../../firmware/macropad4x4).
@@ -87,7 +91,7 @@ Finished product should look like this (the keycaps don't match the actual keys)
 ![finished micropad](../img/1_50_finished.jpg)
 ![finished micropad](../img/1_51_finished.jpg)
 
-Note that my keycaps are flipped by 90 degrees (compared to how people usually mount them). It will not matter at this point, but you might be surprised when you compare it to other builds.
+Note that my keycaps are flipped by 90 degrees (compared to how people usually mount them). It will not matter at this point, but you might be surprised when you compare it to other builds. [Here is why](../designDecisions/README.md)
 
 ## Post build
 - make sure that the keyboard works as expected
