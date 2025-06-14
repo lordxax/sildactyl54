@@ -1,6 +1,3 @@
-> [!WARNING]
-> This project is work-in-progress. Please do not follow that yet. Only 4x4 macro pad is completed
-
 # SilDactyl54
 
 SilDactyl54 is a RP2040 Zero based 54-key split keyboard. It has no PCBs and requires no 3d print. It is very cheap and extremely configurable. It can be row staggered, column staggered or dactyl or some mixture of them (dactyl with column stagger). It uses hotswap sockets, has a configurable thumb cluster and supports vial.
@@ -14,7 +11,7 @@ Most probably you can get it to work with choc switches and wireless MCU. Since 
 The project is forked from https://squalius-cephalus.github.io/silakka54 and reuses 90% of the original silakka54 firmware.
 
 > [!WARNING]
-> read entire guide before ordering anything. The end product is not beutiful, unless you have some good crafting skills
+> read entire guide before ordering anything. The end product is not beutiful, unless you have some good crafting skills.
 
 ## Start the project
 [Buildguide](buildguide/README.md)
