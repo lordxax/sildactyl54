@@ -1,5 +1,7 @@
 # 54 key Ortholinear Keyboard Build Guide
 
+Total cost is around 40$.
+
 # Bill of materials
 - **54x** MX compatible key switches or 45 if you want to go super cheap
 - **54x** Kailh Hotswap Sockets (e.g. 70 here https://a.aliexpress.com/_EI1RGyw for 5$)
