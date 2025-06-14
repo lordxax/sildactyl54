@@ -35,7 +35,9 @@ if you have built the macropad, just add 2 more columns and one row and create s
 
 ## Wiring to MCU
 The wiring should be as follows
+
 "cols": ["GP1", "GP2", "GP3", "GP4", "GP5", "GP6"],
+
 "rows": ["GP8", "GP9", "GP10", "GP11", "GP12"]
 
 
@@ -44,7 +46,9 @@ Helpful image:
 
 > [!TIP]
 > The mapping between pins and wires does not matter as long as you don't wire to some important pins
+> 
 > Don't wire to: GP0, GP1, 5v Gnd, 3v3
+> 
 > You are able to change the pin mapping in QMK (you will have to recomile the firmware though)
 
 # Connecting MCUs
@@ -55,9 +59,13 @@ The MCUs should be connected as follows
 - GP1 to GP0 from other side (receiver to transmitter)
 
 Ideally add a cable in between (do not hardwire them). I've used usb male to female cable eventually. Remember to 'cross' tx to rx connection.
+![finished micropad](../img/2_40_USB_Cable.jpg)
+![finished micropad](../img/2_41_USB_Cable.jpg)
+![finished micropad](../img/2_42_USB_Cable.jpg)
+
 
 # Firmware
-Flash the firmware to bith MCUs (the same firmware). You will find a precompiled version [here](../../firmware/tbd.uf2) or compile it yourself (I highly recommend it) with QMK: [source](../../firmware/tbd).
+Flash the firmware to both MCUs (the same firmware). You will find a precompiled version [here](../../firmware/tbd.uf2) or compile it yourself (I highly recommend it) with QMK: [source](../../firmware/sildactyl54).
 
 # Testing
 You can simulate the key presses like that and test:
@@ -67,17 +75,29 @@ You can simulate the key presses like that and test:
 # Assembly 
 ## Attaching switches
 Mount the switches in the acrylic tester base (actually you will already receive them attached). Using some pliers or tweezers attach the hotswap sockets to the switches. Install keycaps (just push them into the switch).
+![finished ortho](../img/2_34.jpg)
+![finished ortho](../img/2_37.jpg)
 
-Finished product should look like this:
-![finished ortho](../img/2_50_finished.jpg)
-![finished ortho](../img/2_51_finished.jpg)
 
 Note that my keycaps are flipped by 90 degrees (compared to how people usually mount them). It will not matter at this point, but you might be surprised when you compare it to other builds. [Here is why](../designDecisions/README.md)
 
 ## Thumb cluster
-First find the perfect position of the thumb cluster. You can use double sided tape to hold it in place.
+Cut 3x3 acrylic tester base into two halfs:
+![finished ortho](../img/2_35.jpg)
+![finished ortho](../img/2_36.jpg)
 
-Once you are happy with the place, glue it to the 6x4 tester base with hot glue (or any glue of your choice).
+First find the perfect position of the thumb cluster. You can use double sided tape to hold it in place.
+Experiment with the position of thumb cluster:
+![finished ortho](../img/2_37.jpg)
+![finished ortho](../img/2_38.jpg)
+![finished ortho](../img/2_39.jpg)
+![finished ortho](../img/2_40.jpg)
+![finished ortho](../img/2_41.jpg)
+![finished ortho](../img/2_42.jpg)
+![finished ortho](../img/2_43.jpg)
+
+Once you are happy with the place, glue it to the 6x4 tester base with hot glue (or any glue of your choice). 
+Eventually add a case. You can get some inspiration from the dactyl build. You can use random pieces of plastic, plastic box or prepare a wooden case.
 
 # Post build
 - make sure that the keyboard works as expected
