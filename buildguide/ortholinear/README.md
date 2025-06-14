@@ -62,8 +62,8 @@ The MCUs should be connected as follows
 
 Ideally add a cable in between (do not hardwire them). I've used usb male to female cable eventually. Remember to 'cross' tx to rx connection.
 ![finished micropad](../img/2_40_USB_Cable.jpg)
-![finished micropad](../img/2_41_USB_Cable.jpg)
-![finished micropad](../img/2_42_USB_Cable.jpg)
+![finished micropad](../img/2_41_USB_cable.jpg)
+![finished micropad](../img/2_42_USB_cable.jpg)
 
 
 # Firmware
