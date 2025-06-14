@@ -1,4 +1,4 @@
-# Sildactyl
+o# Sildactyl
 follow ordering and soldering sections from Ortholinear build. Additionally you will need to order this
 - 1x 4x4 akko with 16 switches (5$) https://a.aliexpress.com/_EQE2sG2 . This is the same one as in macropad build (you can reuse that one)
   
@@ -59,6 +59,9 @@ keep uisng the keyboard for 1-2 months and see if it is comfortable.
 
 ## Nicer case
 consider building a case from wood, plastic box or whatever works for you.
+
+Some ai inspiration:
+![dactyl](../img/80_case.jpg)
 
 ## Different case size
 consider other shapes like
