@@ -27,7 +27,11 @@ I've cutted the bases using driller and regular drills for metal. It was not eas
 ![dactyl](../img/3_51.jpg)
 
 ## Layout testing
-Mount the switches and keycaps. Mount the pieces togeter with double sided tape and test if they match your hands. Experiment iwth different shapes and layouts. Some ideas are below. Notice how I am moving the pieces on top of each other, more to the front or to the back or bending them inward.
+Mount the switches and keycaps. Mount the pieces togeter with double sided tape and test if they match your hands.
+
+Measure the difference in length of your adjacent fingers. The initial layout of columns should match these differences.
+
+Experiment with different shapes and layouts. Some ideas are below. Notice how I am moving the pieces on top of each other, more to the front or to the back or bending them inward.
 ![dactyl](../img/3_52.jpg)
 ![dactyl](../img/3_53.jpg)
 ![dactyl](../img/3_54.jpg)
