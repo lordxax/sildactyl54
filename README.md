@@ -11,7 +11,7 @@ Most probably you can get it to work with choc switches and wireless MCU. Since 
 The project is forked from https://squalius-cephalus.github.io/silakka54 and reuses 90% of the original silakka54 firmware.
 
 > [!WARNING]
-> read entire guide before ordering anything. The end product is not beutiful, unless you have some good crafting skills.
+> read entire guide before ordering anything. The end product is not beautiful, unless you have some good crafting skills.
 
 ## Start the project
 [Buildguide](buildguide/README.md)
